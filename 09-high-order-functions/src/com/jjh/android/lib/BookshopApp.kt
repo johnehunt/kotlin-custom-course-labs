@@ -32,7 +32,6 @@ fun main() {
 
     println("----------------")
 
-    println("Filter example:")
     val technicalBooks = Bookshop.books[Technical]
 
     println("Pretty Printing all books in the Technical genre")
