@@ -53,9 +53,9 @@ object Bookshop {
     }
 
     fun applyToGenre(genre: Genre, func: (List<Book>) -> Unit) {
-        val listOfbooks = Bookshop.books[genre]
-        if (listOfbooks != null) {
-            func(listOfbooks)
+        val listOfBooks = books[genre]
+        if (listOfBooks != null) {
+            func(listOfBooks)
         }
     }
 
