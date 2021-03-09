@@ -15,5 +15,4 @@ fun main() {
 
     // To pretty print the number use string.format
     println("Sale price of book: %.2f".format(book.calculateSalePrice()))
-
 }

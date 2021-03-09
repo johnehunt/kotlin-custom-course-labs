@@ -1,10 +1,11 @@
 package com.jjh.android.lib
 
 class Book(val title: String,
-           var price: Double,  // note var
+           var price: Double = 0.0,  // note var
            val author: Author,
            val publisher: Publisher) {
 
+    // member level property
     var salesDiscount = 0.0
 
     fun calculateSalePrice(): Double {
