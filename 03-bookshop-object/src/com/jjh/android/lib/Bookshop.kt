@@ -2,7 +2,7 @@ package com.jjh.android.lib
 
 object Bookshop {
 
-    private val name = "John's Bookshop"
+    private const val name = "John's Bookshop"
     private val address = Address(26,
             "Main Street",
             "Bath",
