@@ -1,7 +1,7 @@
 package com.jjh.android.lib
 
 class Book(val title: String,
-           var price: Double,
+           var price: Double,  // note var
            val author: Author,
            val publisher: Publisher) {
 
